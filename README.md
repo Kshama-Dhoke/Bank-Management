@@ -72,6 +72,31 @@ Through this project, I practiced:
 * Exception handling
 * Event handling
 
+## Screenshots
+
+### Login Page
+
+![Login Page](screenshots/login%20page.jpg)
+
+### Signup - First Page
+
+![Signup First Page](screenshots/from%20page%20one.jpg)
+
+### Signup - Second Page
+
+![Signup Second Page](screenshots/second%20page.jpg)
+
+### Signup - Third Page
+
+![Signup Third Page](screenshots/three%20page.jpg)
+
+### Transactions Page
+
+![Transactions Page](screenshots/transaction%20page.jpg)
+
+### Mini Statement
+
+![Mini Statement](screenshots/Mini%20statement.jpg)
 ## Author
 
 **Kshama Dhoke**
