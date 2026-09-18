@@ -1,18 +1,14 @@
 # Bank Management System
 
-## Project Overview
+A Java-based desktop banking application that simulates common ATM and banking operations using **Java Swing, JDBC, and MySQL**.
 
-The Bank Management System is a Java-based desktop application developed using Java Swing and MySQL. It simulates basic banking and ATM operations through a graphical user interface.
+## 📌 Project Overview
 
-## Technologies Used
+The **Bank Management System** is a desktop application developed using Java Swing and MySQL. It provides a graphical interface for performing basic banking and ATM operations such as account registration, login, deposits, withdrawals, balance enquiry, mini statements, and PIN management.
 
-* Java
-* Java Swing
-* MySQL
-* JDBC
-* Eclipse IDE
+This project was developed as a learning project to strengthen my practical knowledge of **Java, object-oriented programming, GUI development, JDBC, and MySQL database integration**.
 
-## Features
+## 🚀 Features
 
 * User registration and account creation
 * Login using card number and PIN
@@ -24,55 +20,88 @@ The Bank Management System is a Java-based desktop application developed using J
 * PIN change
 * Transaction management
 * MySQL database integration
+* Graphical user interface using Java Swing
+* Input validation and event handling
 
-## Project Structure
+## 🛠️ Technologies Used
+
+| Technology      | Purpose                  |
+| --------------- | ------------------------ |
+| **Java**        | Application development  |
+| **Java Swing**  | Graphical user interface |
+| **JDBC**        | Java–MySQL connectivity  |
+| **MySQL**       | Database management      |
+| **Eclipse IDE** | Development environment  |
+
+## 📂 Project Structure
 
 ```text
 Bank-Management
-├── src
-│   └── bankManagementSystem
-│       ├── Connect.java
-│       ├── LoginBank.java
-│       ├── SignupOne.java
-│       ├── SignupTwo.java
-│       ├── SignupThree.java
-│       ├── Transactions.java
-│       ├── Deposit.java
-│       ├── FastCash.java
-│       └── MiniStatement.java
 │
-└── icons
-    ├── atm.jpg
-    └── logo.jpg
+├── icons
+│   ├── atm.jpg
+│   └── logo.jpg
+│
+├── screenshots
+│   ├── login page.jpg
+│   ├── from page one.jpg
+│   ├── second page.jpg
+│   ├── three page.jpg
+│   ├── transaction page.jpg
+│   └── Mini statement.jpg
+│
+├── src
+│   ├── BalanceEnquiry.java
+│   ├── Deposit.java
+│   ├── FastCash.java
+│   ├── LoginBank.java
+│   ├── MiniStatement.java
+│   ├── PinChange.java
+│   ├── SignupOne.java
+│   ├── SignupTwo.java
+│   ├── SignupThree.java
+│   ├── Transactions.java
+│   ├── Withdrawl.java
+│   └── connect.java
+│
+└── README.md
 ```
 
-## Database
+## 🗄️ Database
 
-The application uses MySQL to store user registration details, login information, and transaction-related data.
+The application uses **MySQL** to store and manage application data, including:
 
-## How to Run
+* User registration details
+* Login credentials
+* Account information
+* Transaction-related information
 
-1. Install Java JDK.
-2. Install MySQL Server.
-3. Create the required database and tables.
-4. Update the database connection details in the `Connect` class.
-5. Open the project in Eclipse.
-6. Add the required JDBC driver.
-7. Run the `LoginBank` class or the appropriate starting class.
+The application connects to MySQL through **JDBC**.
 
-## Learning Outcomes
+> **Note:** Database credentials should not be uploaded to GitHub. Before sharing the project publicly, make sure your username, password, and other sensitive connection details are not exposed in the source code.
 
-Through this project, I practiced:
+## ▶️ How to Run
 
-* Java programming
-* Object-oriented programming
-* Java Swing GUI development
-* JDBC connectivity
-* MySQL database operations
-* Exception handling
-* Event handling
+### Prerequisites
 
-## Screenshots
+Make sure you have:
+
+1. Java JDK installed
+2. MySQL Server installed and running
+3. Eclipse IDE or another Java IDE
+4. MySQL JDBC driver
+
+### Steps
+
+1. Clone or download this repository.
+2. Open the project in Eclipse.
+3. Create the required MySQL database and tables.
+4. Configure the database connection in the `connect` class.
+5. Add the MySQL JDBC driver to the project.
+6. Run the application from the appropriate starting class.
+7. Register a user and use the generated card number and PIN to log in.
+
+## 📸 Application Screenshots
 
 ### Login Page
 
@@ -97,12 +126,45 @@ Through this project, I practiced:
 ### Mini Statement
 
 ![Mini Statement](screenshots/Mini%20statement.jpg)
-## Author
+
+## 📚 Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+* Core Java programming
+* Object-oriented programming
+* Java Swing GUI development
+* JDBC connectivity
+* MySQL database operations
+* SQL queries
+* Event handling
+* Exception handling
+* Form validation
+* Working with multiple Java classes
+* Connecting a desktop application to a relational database
+
+## 🔮 Future Enhancements
+
+Possible future improvements include:
+
+* Improved user interface design
+* Enhanced transaction history
+* Better security for PIN and account information
+* Input validation improvements
+* Database configuration using environment variables
+* Improved error handling
+* Additional banking features
+
+## 👩‍💻 Author
 
 **Kshama Dhoke**
 
 Computer Science Engineering Graduate
 
+### Project Focus
+
+**Java | Java Swing | JDBC | MySQL | Desktop Application Development**
+
 ---
 
-*This project was developed as a learning project to practice Java, GUI development, and database connectivity.*
+*This project was developed as a learning project to apply Java programming, GUI development, database connectivity, and software development concepts in a practical application.*
